@@ -1,0 +1,110 @@
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
+
+.image {
+    object-fit: cover;
+    height: 160px;
+    width: 160px;
+    border-radius: 200px;
+    border-style: solid;
+    border-color: #28f100;
+    border-width: 5px;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: rgb(0 0 0 / 57%) 0px 0px 15px;
+}
+
+
+h1{
+  font-size:40px;
+  font-family: sans-serif
+}
+
+p{
+   font-size:32px;
+   font-family: cursive;
+
+}
+
+ .welcome-section {
+ /*    height:65%;
+*/     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+/*     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    color:white;
+     background-color:#072114;
+     border: 2px solid #8d9052;
+  }
+
+body{
+  background-image:url();
+  background-repeat: no-repeat;
+ /* height:650px;*/
+  width:100%;
+  background-color:#072114;
+}
+
+#projects {
+ /* height:500px;*/
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: cursive;
+}
+
+  .row {
+      display:flex;
+      flex-direction: row;
+  }
+
+  .coloum {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      border: 1px solid red;
+
+  }
+
+*{
+   margin-left:0px;
+}
